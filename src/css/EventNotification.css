@@ -1,0 +1,68 @@
+/* Event Notification styles */
+
+.event-notification {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../public/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 3em;
+    color: white;
+    padding: 3em 0;
+}
+
+.event-notification__heading {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 1em;
+}
+
+h2.event-name {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.countDown-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    margin-top: 2em;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.hrs,
+.mins,
+.days,
+.secs {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.count {
+    width: 65px;
+    height: 65px;
+    background-color: #384452;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.dots {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+@media  (min-width: 924px){
+
+    .event-notification {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -7em;
+    }
+}

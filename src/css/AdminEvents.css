@@ -1,0 +1,97 @@
+.add-event-section {
+    margin-top: 3em;
+}
+
+.add-close-event-form {
+    padding: 12px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: 2em;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 2em;
+}
+
+.add-event-form {
+    margin: 0;
+    padding: 0;
+    background-color: #384452;
+    padding: 3em 1.5em;
+}
+
+.event-name-input-container,
+.event-date-input-container{
+    background-color: white;
+    padding: .5em;
+    border-radius: 30px;
+    margin-bottom: 2em;
+
+}
+
+.event-name-input-container > input,
+.event-date-input-container > input {
+    width: 100%;
+    padding-left: 12px;
+    border: none;
+    outline-width: 0;
+}
+
+.event-submit-btn-container {
+    margin-top: 2em;
+}
+
+.submit-event-btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 12px 0;
+    border-radius: 30px;
+}
+
+
+@media (min-width: 491px){
+
+    .add-event-form {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.available-events {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.delete-update-btns {
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.delete-update-btns > button,
+.delete-update-btns > a {
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+@media (min-width: 1071px){
+
+    .delete-update-btns > button:hover,
+    .delete-update-btns > a:hover {
+        background-color: white;
+        color: black
+    }
+
+}

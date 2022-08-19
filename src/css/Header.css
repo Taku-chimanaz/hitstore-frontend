@@ -1,0 +1,219 @@
+header{
+    width: 90vw;
+    height: 12vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #384452;
+}
+
+.MuiSvgIcon-root {
+    margin-right: 5px;
+    color: #384452;
+}
+
+.side-navbar-container nav a > .MuiSvgIcon-root {
+    color: white;
+}
+
+
+/* Top navbar */
+
+.top-navbar-container {
+    display: none;
+}
+
+@media (min-width: 928px){
+    
+    .top-navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .top-navbar-container nav {
+        display: flex;
+        width: 70%;
+        align-items: center;
+        justify-content: space-between;
+    }
+ 
+    .top-navbar-container nav  a {
+        display: flex;
+        align-items: center;
+    }
+
+    .MuiSvgIcon-root {
+        margin-right: 5px;
+    }
+
+    .top-navbar-container nav a,
+    .top-navbar-contact-link-container > a {
+        text-decoration: none;
+        color: black;
+        padding:8px 15px; 
+    }
+
+    .top-navbar-contact-link-container > a{
+        padding: 12px 25px;
+    }
+
+    .top-navbar-container nav a.active,
+    .top-navbar-container nav a:hover{
+        border-left: 2px solid #384452;
+        font-weight: 600;
+    }
+
+
+    .top-navbar-contact-link-container > a {
+        color: white;
+        background-color: #384452;
+        font-weight: 500;
+        border-radius: 30px;
+        font-size: .9rem;
+    } 
+    
+    .top-navbar-contact-link-container > a:hover {
+        transform: scale(1.2);
+        border: 2px solid #384452;
+        color: black;
+        background-color: white;
+    }
+
+
+}
+
+
+/* Burger styles */
+
+.burger {
+    cursor: pointer;
+    transition: .7s ease;
+}
+
+
+.burger-activated  {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px  solid  #384452;
+}
+
+.burger > div{
+    width: 25px;
+    height: 3px;
+    margin-bottom: 3px;
+    background-color: black;
+}
+
+.hide-burger-divs {
+    display: none;
+}
+
+@media (min-width: 928px){
+    
+    .burger {
+        display: none;
+    }
+
+    .top-navbar-container {
+        display: flex;
+        flex: 6.5;
+    }
+
+
+
+    .spread-links {
+        flex: 1;
+    }
+
+    .logo {
+        flex: 3.5;
+    }
+}
+
+
+/* Side navbar styles */
+.side-navbar-container {
+    padding: 1.5em;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    background-color: #384452;
+    transition: .6s  ease-in;
+    display: none;
+}
+
+
+
+.show-side-navbar-container {
+    display: block;
+}
+
+.side-navbar-container{
+    flex: .7;
+}
+
+section.contact-link-container {
+    margin-top: 3em;
+    flex: .3;
+}
+
+.side-navbar-container > nav {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+
+.side-navbar-container nav a,
+section.contact-link-container a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: .9rem;
+    color: white;
+    text-align: center;
+}
+
+
+.side-navbar-container nav a {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.side-navbar-container nav a.active {
+    border-left: 2px solid white;
+}
+
+section.contact-link-container {
+    display: flex;
+    justify-content: center;
+}
+
+section.contact-link-container a{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+.update-product-form {
+    background: white;
+    padding: 0;
+    margin: 0;
+    padding: 30px;
+    position: relative;
+    transition: .4s ease;
+    width: 329px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .7em;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+
+.close-product-form-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: 600;
+}
+
+.product-update-name-input-container {
+    margin-top: 4em;
+}
+
+.product-update-name-input-container,
+.price-input-container,
+.description-input-container,
+.update-image{
+
+    background-color: white;
+    padding: .5em;
+    border-radius: 30px;
+    margin-bottom: 2em;
+    border: 2px solid #384452;
+}
+
+.description-input-container {
+    border-radius: 10px;
+}
+
+.description-input-container > textarea {
+    height: 100px;
+    width: 100%;
+}
+
+.product-update-name-input-container > input,
+.price-input-container >input,
+.description-input-container > textarea,
+.update-image {
+    outline-width: 0;
+    border: none;
+    padding-left: 10px;
+}
+
+.update-product-btn-container {
+    display: flex;
+    justify-content: center;
+}
+.submit-update-btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.submit-update-btn:hover {
+    color: black;
+    background-color: white;
+    font-weight: 500;
+}

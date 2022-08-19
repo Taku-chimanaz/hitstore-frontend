@@ -1,0 +1,79 @@
+.event-update-overlay,
+.accomodation-update-overlay {
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+}
+
+.update-accomodation__header {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.event-update-form,
+.update-accomodation-form {
+    background-color: whitesmoke;
+}
+
+.close-event-update-form,
+.close-accomodation-update-form {
+    position: absolute;
+    top: 2em;
+    right: 1em;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;;
+}
+
+.event-update-title-container,
+.event-update-date-container,
+.update-address-input-container,
+.update-conditions-input-container,
+.update-available-input-container{
+    background-color: white;
+    padding: .5em;
+    border-radius: 30px;
+    margin-bottom: 2em;
+}
+
+
+.event-update-title-container > input,
+.event-update-date-container > input,
+.update-address-input-container > input,
+.update-conditions-input-container > input,
+.update-available-input-container > select
+{
+    width: 100%;
+    border: none;
+    outline-width: 0;
+}
+
+.submit-event-update-container,
+.update-submit-accomodation-container {
+    margin-top: 2em;
+}
+
+.submit-event-update-btn,
+.update-submit-accomodation {
+    width: 100%;
+    padding: 12px 0;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+@media (min-width: 1071px){
+
+    .submit-event-update-btn:hover,
+    .update-submit-accomodation:hover {
+        background-color: white;
+        color: black;
+    }
+}

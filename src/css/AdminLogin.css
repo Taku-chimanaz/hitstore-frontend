@@ -1,0 +1,60 @@
+.form-container {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #384452;
+
+}
+
+.login-form {
+    padding: 1.5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 90vw;
+    box-shadow: 3px 2px 2px 3px black;
+}
+
+form > h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+}
+.admin-name-input-container,
+.admin-password-input-container {
+    padding: .5em;
+    background-color: white;
+    margin-bottom: 3em;
+    border-radius: 30px;
+}
+
+.admin-name-input-container > input,
+.admin-password-input-container > input {
+    border: none;
+    font-size: .7rem;
+    padding-left: 12px;
+    outline-width: 0;
+    width: 100%;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 12px 0;
+    border: none;
+    border-radius: 30px;
+}
+
+@media (min-width: 602px){
+
+    .login-form {
+        width: 412px;
+    }
+
+    .login-btn:hover {
+        background-color: transparent;
+        color: white;
+        border: 2px solid  black;
+    }
+}

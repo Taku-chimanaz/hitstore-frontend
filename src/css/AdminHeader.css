@@ -1,0 +1,16 @@
+.logo {
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #384452;
+}
+
+.logout-btn {
+    width: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.logout-btn > img {
+    width: 100%;
+}

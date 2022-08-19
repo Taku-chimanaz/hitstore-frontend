@@ -1,0 +1,110 @@
+.add-product-section {
+    padding: 1.5em;
+    margin: 2em 0 .5em;
+}
+
+.add-product-btn,
+.close-add-product-btn {
+    border: none;
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin-left: auto;
+    display: block;
+}
+
+.close-add-product-btn {
+    display: none;
+}
+
+.show-close-btn {
+    display: block;
+}
+
+.hide-add-product-btn {
+    display: none;
+}
+
+@media (min-width: 723px){
+
+    .add-product-btn:hover,
+    .close-add-product-btn:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        font-weight: 600;
+    }
+}
+
+
+.add-product-form {
+    padding: 3em 1.5em;
+    background-color: #384452;
+    display: none;
+    transform: .4s ease;
+}
+
+@media (min-width: 723px){
+
+    .add-product-form {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2em;
+    }
+}
+
+.product-name-input-container,
+.product-price-input-container,
+.product-description,
+.product-owner-whatsapplink-input-container{
+    background-color: white;
+    border-radius: 30px;
+    padding: .5em;
+    margin-bottom: 2em;
+}
+
+.product-description {
+    border-radius: 10px;
+}
+
+.product-description > textarea,
+.product-name-input-container > input,
+.product-price-input-container >input, 
+.product-owner-whatsapplink-input-container >input {
+    outline-width: 0;
+    border: 0;
+    padding-left: 12px;
+}
+
+.product-description > textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.file {
+    margin-bottom: 2em;
+}
+.submit-product {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+}
+
+.show-form {
+    display: block;
+}
+
+@media(min-width: 780px){
+
+    .available-products {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}

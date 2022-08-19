@@ -1,0 +1,221 @@
+.accomodations-section,
+.events-section {
+    padding-left: 1.5em;
+    margin-top: 4em;
+    padding-bottom: 1em;
+}
+
+@media (min-width: 1069px){
+    .accomodations-section,
+    .events-section {
+        padding-left: 3em;
+    }
+}
+
+
+.accomodations-container,
+.events-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    overflow-x: scroll;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+.empty-container {
+    height: 0px;
+}
+
+@media (min-width: 1069px){
+    
+    .accomodations-container,
+    .events-container {
+        margin-top: 3em;
+    }
+}
+
+.view-all-items {
+    flex-direction: row;
+    margin-top: 3em;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.accomodations-container::-webkit-scrollbar,
+.events-container::-webkit-scrollbar {
+    display: none;
+}
+
+.accomodations-container,
+.events-container{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.accomodation,
+.event {
+    padding: .8em;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 1em;
+    
+}
+
+@media (min-width: 411px){
+    
+    .accomodation,
+    .event {
+        width: 300px;
+    }
+}
+
+.view-all-mode {
+    margin-bottom: 2em;
+    margin-left: -12px;
+}
+
+.accomodations-container__header, 
+.events-container__header {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1069px){
+    
+    .accomodations-container__header, 
+    .events-container__header {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+    }
+
+}
+
+.room-img-container,
+.event-img-container{
+    width: 100%;
+}
+
+.room-img-container > img,
+.event-img-container > img {
+    width: 100%;
+}
+
+.room-details,
+.event-details {
+    text-align: center;
+}
+
+.address,
+.event-status {
+    font-size: .9rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.availability {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.green-circle {
+    background-color: green;
+}
+
+.red-circle {
+    background-color: red;
+}
+
+.availability > p {
+    font-size: .8rem;
+}
+
+
+.buttons-container {
+    margin-top: 3em;
+}
+
+
+.view-all-btn,
+.events-view-all-btn,
+.book-event-btn {
+    background-color: black;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.book-event-btn {
+    text-decoration: none;
+}
+
+.events-view-all-btn,
+.book-event-btn {
+    margin: 0;
+}
+
+.event-name {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+.event-date {
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+
+.events-buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    padding-left: 0;
+}
+
+.no-buttons {
+    display: none;
+}
+
+.empty-container {
+    height: 0px;
+}
+
+@media (min-width: 1000px){
+
+    .view-all-btn:hover,
+    .events-view-all-btn:hover,
+    .book-event-btn:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+    }
+
+}

@@ -1,0 +1,100 @@
+.gossips-container,
+.searched-gossip{
+    margin: 5em 0;
+}
+
+
+@media (min-width: 907px){
+
+    .gossips-container,
+    .searched-gossips,
+    .available-gossips{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+
+.gossip {
+    padding: 1.5em;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 4em;
+}
+
+@media (min-width: 431px){
+
+    .gossip {
+        width: 379px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.image-container {
+    flex: .4;
+    height: auto;
+}
+
+.image-container > img {
+    width: 100%;
+}
+
+.article-content {
+    flex: .5;
+    text-align: center;
+}
+
+.article-heading {
+    text-transform: capitalize;
+    margin: 1em 0;
+}
+
+.article-para {
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.full-article-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    background-color: black;
+    padding: 12px 40px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 1.5em 0 .5em;
+}
+
+.gossip-delete-update-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.gossip-delete-update-btns > button,
+.gossip-delete-update-btns > a {
+    padding: 12px 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}   
+
+@media (min-width: 907px){
+
+    .full-article-link:hover,
+    .gossip-delete-update-btns > button:hover,
+    .gossip-delete-update-btns > a:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        font-weight: 500;
+    }
+
+
+}

@@ -1,0 +1,124 @@
+.add-gossip-btns {
+    margin-top: 3em;
+}
+
+.open-add-gossip-form,
+.close-add-gossip-form {
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+.close-add-gossip-form {
+    display: none;
+}
+
+.hide-add-add-gossip-form-btn {
+    display: none;
+}
+
+.show-close-add-gossip-form-btn {
+    display: block;
+}
+
+.add-gossip-section {
+    margin-top: 3em;
+    display: none;
+}
+
+.show-add-gossip-form{
+    display: block;
+}
+
+.add-gossip-form {
+    padding: 0;
+    margin: 0;
+    background-color: #384452;
+    margin-top: 2em;
+    padding: 3.5em 1.5em;
+}
+
+@media (min-width: 790px){
+
+    .add-gossip-form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .submit-gossip:hover,
+    .open-add-gossip-form:hover,
+    .close-add-gossip-form:hover{
+        background-color: white;
+        color: black;
+    }
+}
+
+
+
+.gossip-name-input-container,
+.gossip-body-input-container{
+    background-color: white;
+    padding: .5em;
+    border-radius: 30px;
+    margin-bottom: 2em;
+}
+
+.gossip-body-input-container {
+    border-radius: 10px;
+    height: 350px;
+}
+
+
+.gossip-body-input-container > textarea,
+.gossip-name-input-container > input {
+    width: 100%;
+    height: 100%;
+    outline-width: 0;
+    padding-left: 10px;
+    border: 0;
+}
+
+.gossip-image,
+.submit-gossip {
+    display: block;
+    margin-bottom: 2em;
+}
+
+.submit-gossip {
+    width: 100%;
+    padding: 14px 0;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+@media (min-width: 1071px){
+
+    .add-gossip-section {
+        width: 100vw;
+        padding: 2em;
+        background-color: #384452;
+    }
+
+  
+    .add-gossip-form {
+        width: 80vw;
+        margin-left: auto;
+        margin-left: 2em;
+        margin-top: 0;
+        padding-top: 0;
+        background: transparent;
+    }
+
+    .submit-gossip {
+        margin-bottom: 2em;
+    }
+
+
+}

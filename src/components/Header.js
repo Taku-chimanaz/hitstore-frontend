@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom';
 import '../css/Header.css';
 import HomeIcon from '@mui/icons-material/Home';
 import StoreIcon from '@mui/icons-material/Store';
-//import ForumIcon from '@mui/icons-material/Forum';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import HomeRepairServiceIcon from '@mui/icons-material/HomeRepairService';
+import { Divider } from '@mui/material';
 
 const Header = ({active,home}) => {
     
@@ -13,9 +13,10 @@ const Header = ({active,home}) => {
     <>
         <header>
 
-            <h3 className="logo">
-                HITSTORE
-            </h3>
+            <div className="logo-container">
+                <img src="./h4.png" alt="logo" width={"30"} className="logo" />
+                <h3>HITSTORE</h3>
+            </div>
             <TopNavbar active={active} home={home}></TopNavbar>
             <Burger active={active}/>
         </header>

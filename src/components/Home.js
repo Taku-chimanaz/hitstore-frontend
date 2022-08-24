@@ -43,7 +43,7 @@ const Main = () => {
 
             <article className="intro-para-container">
                 <p className="intro-para">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur tempore voluptatibus distinctio incidunt recusandae dignissimos optio pariatur amet architecto reprehenderit!
+                    We are a platform that provides selected services to varsity students to make college life easier and fun.Our platform features a store,blog and a section to browse for accomodations and upcoming events.
                 </p>
             </article>
 

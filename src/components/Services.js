@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
 
-    const desc = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ut tempora numquam, odit fugiat."
+    const productsDesc = "Browse through all the available products and see what tinkles your fancy";
+    const servicesDesc = "Click through to view all upcoming events and also take a look at available off campus accomodation";
+    const phoshtoDesc = "Get to witness all the crazy stuff going on around the campus"
 
     return (
 
@@ -15,9 +17,9 @@ const Services = () => {
 
             <div className="services-container">
                 
-                <Service serviceName={"phoshto"} desc={desc} callToActionText={"chilla paposhto"} img={"phoshto.png"}/>
-                <Service serviceName={"products"} desc={desc} callToActionText={"hit the store"} img={"products.png"} extraMargin={"products-service"}/>
-                <Service serviceName={"services"}callToActionText={"Explore More"} desc={desc} img={"contact.png"} extraMargin={'services-service'}/>
+                <Service serviceName={"phoshto"} desc={phoshtoDesc} callToActionText={"chilla paposhto"} img={"phoshto.png"}/>
+                <Service serviceName={"products"} desc={productsDesc} callToActionText={"hit the store"} img={"products.png"} extraMargin={"products-service"}/>
+                <Service serviceName={"services"}callToActionText={"Explore More"} desc={servicesDesc} img={"contact.png"} extraMargin={'services-service'}/>
                 </div>
 
         </section>
